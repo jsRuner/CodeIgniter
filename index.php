@@ -28,6 +28,8 @@
  * By default development will show errors but testing and live will hide them.
  */
 
+echo "测试"
+
 if (defined('ENVIRONMENT'))
 {
 	switch (ENVIRONMENT)
@@ -45,6 +47,10 @@ if (defined('ENVIRONMENT'))
 			exit('The application environment is not set correctly.');
 	}
 }
+
+/**
+*添加一个测试，提交到本地仓库。
+*/
 
 /*
  *---------------------------------------------------------------
